@@ -12,6 +12,7 @@ export default function Card({ title, description, image }: ICardProps) {
     <div className="flex gap-4 shadow-md shadow-slate-700/20 bg-white p-4 rounded-md">
       <div
         className="flex w-32 bg-slate-300"
+        data-testid="card-image"
         style={
           (image && {
             backgroundImage: `url(${image})`,

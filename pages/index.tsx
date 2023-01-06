@@ -76,7 +76,7 @@ export default function Home() {
             </p>
           </div>
           {/* 1 */}
-          <div className="flex gap-24 mr-16">
+          <div className="flex flex-col items-center md:items-start md:flex-row gap-24 md:mr-16">
             <div>
               <img
                 src="/assets/solar-1.png"
@@ -112,7 +112,7 @@ export default function Home() {
             </div>
           </div>
           {/* 2 */}
-          <div className="flex flex-row-reverse gap-24 ml-16">
+          <div className="flex flex-col items-center md:items-start md:flex-row-reverse gap-24 md:ml-16">
             <div>
               <img
                 src="/assets/solar.jpg"
@@ -153,7 +153,7 @@ export default function Home() {
             </div>
           </div>
           {/* 3 */}
-          <div className="flex gap-24 mr-16">
+          <div className="flex flex-col items-center md:items-start md:flex-row gap-24 md:mr-16">
             <div>
               <img
                 src="/assets/solar-2.png"
@@ -169,7 +169,9 @@ export default function Home() {
                   <h2 className="text-3xl font-bold">Solar Development</h2>
                 </div>
                 <p className="max-w-[400px] mt-4">
-                  We work at the forefront of responsible, innovative solar development. Partner with our veteran team to develop utility-scale solar across the US.
+                  We work at the forefront of responsible, innovative solar
+                  development. Partner with our veteran team to develop
+                  utility-scale solar across the US.
                 </p>
               </div>
               <div>
